@@ -1,0 +1,15 @@
+<Application xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:baseApp="using:CrossplatformSample"
+             x:Class="CrossplatformSample.Mobile.App"
+             RequestedThemeVariant="Default">
+             <!-- "Default" ThemeVariant follows system theme variant. "Dark" or "Light" are other available options. -->
+
+    <Application.DataTemplates>
+        <baseApp:ViewLocator/>
+    </Application.DataTemplates>
+
+    <Application.Styles>
+        <StyleInclude Source="avares://CrossplatformSample/Assets/Styles/SharedStyles.axaml"/>
+    </Application.Styles>
+</Application>
